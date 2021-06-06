@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+
+    <servlet>
+        <description></description>
+        <display-name>AddCustomerServlet</display-name>
+        <servlet-name>AddCustomerServlet</servlet-name>
+        <servlet-class>servlet.AddCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCustomerServlet</servlet-name>
+        <url-pattern>/AddCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>QueryAllCustomerServlet</display-name>
+        <servlet-name>QueryAllCustomerServlet</servlet-name>
+        <servlet-class>servlet.QueryAllCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QueryAllCustomerServlet</servlet-name>
+        <url-pattern>/QueryAllCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <description></description>
+        <display-name>DeleteCustomerServlet</display-name>
+        <servlet-name>DeleteCustomerServlet</servlet-name>
+        <servlet-class>servlet.DeleteCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCustomerServlet</servlet-name>
+        <url-pattern>/DeleteCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>ModifyCustomerServlet</display-name>
+        <servlet-name>ModifyCustomerServlet</servlet-name>
+        <servlet-class>servlet.ModifyCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyCustomerServlet</servlet-name>
+        <url-pattern>/ModifyCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>DeleteMultipleCustomerServlet</display-name>
+        <servlet-name>DeleteMultipleCustomerServlet</servlet-name>
+        <servlet-class>servlet.DeleteMultipleCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteMultipleCustomerServlet</servlet-name>
+        <url-pattern>/DeleteMultipleCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>SearchCustomerServlet</display-name>
+        <servlet-name>SearchCustomerServlet</servlet-name>
+        <servlet-class>servlet.SearchCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchCustomerServlet</servlet-name>
+        <url-pattern>/SearchCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>UserLoginServlet</display-name>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <servlet-class>servlet.UserLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <url-pattern>/UserLoginServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
